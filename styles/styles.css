@@ -1,0 +1,553 @@
+body{
+    margin: 0;
+}
+.main{
+    font-family: forma-djr-micro,Arial,sans-serif;
+}
+.header-1{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 38px;
+    
+}
+.img-head-1{
+    width: 40%;
+    height: 38px;
+    margin-left: 337px;
+    cursor: pointer;
+
+}
+.img-z{
+    width: 43px;
+    height: 26px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.img-omen{
+    width: 90px;
+    height: 27px;
+    padding-top: 5px;
+    margin-left: 18px;
+    cursor: pointer;
+    
+}
+.img-poly{
+    width: 44px;
+    height: 27px;
+    padding-top: 5px;
+    margin-left: 13px;
+}
+.img-logo-1{
+    width: 53px;
+    height: 33px;  
+      
+}
+.topnav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 78px;
+    
+
+}
+.logo-hp{
+    margin-left: 310px;
+    float: left;
+    cursor: pointer;
+    
+}
+.hp-logo{
+    height: 50px;
+    width: 100px;
+    padding-top: 12px;
+    
+   
+}
+.menu{
+    float: left;
+    margin-left: 5px;
+    padding-top: 23px;
+    
+}
+.menu-content{
+    color:#767676;
+    font-family: forma-djr-micro,Arial;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 10px;
+    line-height: 1px;
+    margin-left: 31px;
+    font-size: 19px;
+}
+.menu-content:hover{
+    color: black;
+}
+.search-container{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    height: 40px;
+    width: 10px;
+    display: inline-block;
+    cursor: text;
+    margin-left: 272px;
+    padding-top: 19px;
+    
+    
+}
+.search-container input{
+    height: 41px;
+    width: 425px;
+    display: flex;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: forma-djr-micro,Arial;
+    border: 1px solid #767676;
+    
+    
+}
+.search-icon{
+    height: 34px;
+    width: 25px;
+    margin-left: 383px;
+    padding-top: 21px;
+    float: left;
+    
+    cursor: pointer;
+}
+
+
+.cart{
+    height: 20px;
+    width: 20px;
+    margin-left: -171px;
+    padding-top: 22px;
+    float: left;
+    
+    cursor: pointer;
+}
+.cart-logo{
+    height: 33px;
+    width: 33px;
+    margin-left: 200px;
+    
+}
+.sign-button{
+    float: left;
+    margin-left: 100px;
+    padding-top: 22px;
+    cursor: pointer;
+    
+}
+.sign-butt{
+    height: 36px;
+    width: 85px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: forma-djr-micro,Arial;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.sign-butt:hover{
+    background-color: #767676;
+}
+.hero-image {
+    background-image: url("https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/VISID-hybrid-work-desktop_2x.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.line-1{
+    width: 87rem;
+    height: 1px;
+    position: absolute;
+    top: 395px;
+    left: -962px;
+    background-color: white;
+    line-height: 10px;
+
+}
+.text-1{
+    position: absolute;
+    text-align: center;
+    top: 365px;
+    left: -702px;
+    right: -691px;
+    font-style: normal;
+    font-size: 84px;
+    word-spacing: 22px;
+
+}
+.line-2{
+    position: absolute;
+    width: 87rem;
+    height: 1px;
+    top: 501px;
+    left: -963px;
+    background-color: white;
+}
+.text-2{
+  
+
+    position: absolute;
+    top: 499px;
+    left: -746px;
+    right: -637px;
+    font-size: 35px;
+    font-style: normal;
+}
+.learn{
+    position: absolute;
+    top: 542px;
+    left: 1514px;
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    
+}
+
+.learn:hover{
+    color: #e1e1e1;
+}
+
+.learn:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #cccfdb;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+ 
+.learn:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+.hey{
+    position: absolute;
+    top: 733px;
+    left: 336px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 62px;
+}
+.line-3{
+    position: absolute;
+    width: 87.08rem;
+    height: 1px;
+    top: 854px;
+    left: -14px;
+    background-color: rgb(0, 0, 0);
+}
+.what{
+    position: absolute;
+    top: 848px;
+    left: 336px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+
+}
+.img-printer{
+    background-color: #212237;
+    height: 437px;
+    width: 392px;
+    margin-top: 252px;
+    margin-left: 313px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.printer{
+    height: 407px;
+    width: 390px;
+    margin-top: -31px;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+    overflow: hidden;
+    transform-origin: 0 0;
+    transition: transform .5s ease;
+}
+.printer:hover{
+    transform: scale(1.1);
+}
+.img-pc{
+    background-color: #212237;
+    height: 437px;
+    width: 392px;
+    margin-top: 252px;
+    margin-left: 51px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.pc{
+    height: 407px;
+    width: 390px;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+.img-camera{
+    background-color: #212237;
+    height: 439px;
+    width: 392px;
+    margin-top: -437px;
+    margin-left: 1196px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.camera{
+    height: 407px;
+    width: 390px;
+    background: white;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+.text-printer{
+    font-size: 34px;
+    color: white;
+    margin-top: 3px;
+    margin-left: 134px;
+}
+.text-pc{
+    font-size: 34px;
+    color: white;
+    margin-top: 3px;
+    margin-left: 157px;
+}
+.text-camera{
+    font-size: 31px;
+    color: white;
+    margin-top: 6px;
+    margin-left: 19px;
+}
+.black-1{
+    background-color: black;
+    width: 100%;
+    height: 111px;
+    margin-top: 750px;
+}
+.text-know{
+    color:white;
+    font-size: 30px;
+    margin-top: 38px;
+    margin-left: 101px;
+    float: left;
+}
+.shop-button{
+    height: 46px;
+    background: white;
+    width: 118px;
+    margin-left: 625px;
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    float: left;
+    border: none;
+}
+.shop-button:hover{
+    background-color: #cccfdb;
+}
+.black-2{
+    background-color:black;
+    width: 100%;
+    height: 485px;
+    margin-top: 2px;
+}
+.country{
+
+}
+.text-country{
+    margin-top: 15px;
+    margin-left: 358px;
+    color: white;
+    font-size: 15px;
+    float: left;
+
+}
+.img-india{
+    margin-left: 5px;
+    margin-top: 10px;
+
+    float: left;
+}
+.india{
+    height: 10px;
+    width: 50px;
+}
+.text-india{
+    margin-top: 16px;
+    margin-left: -6px;
+    font-size: 15px;
+    color: white;
+    float: left;
+    cursor: pointer
+}
+.text-india:hover{
+    text-decoration: underline;
+}
+.line-4{
+    position: absolute;
+    width: 1179px;
+    height: 1px;
+    top: 1608px;
+    left: 357px;
+    background-color: white;
+}
+.footer-table{
+    height: 300px;
+    width: 1178px;
+    margin-left: 357px;
+
+}
+.about{
+    color: white;
+    width: 135px;
+    padding-top: 62px;
+    margin-left: 1px;
+}
+.text-about:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.text-support:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+label{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: text;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot-1{
+    width: 180px;
+    list-style-type: none;
+    margin-left: -41px;
+    font-size: 14px;
+}
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.about{
+ 
+    color: white;
+    width: 232px;
+    padding-top: 62px;
+    margin-left: 1px;
+}
+.ways{ 
+    color: white;
+    width: 232px;
+    margin-left: 233px;
+    margin-top: -200px;
+    float: left;
+}
+.Support{
+
+    color: white;
+    width: 232px;
+    margin-left: 465px;
+    margin-top: -200px;
+    float: left;
+
+}
+.hp-part{
+
+    color: white;
+    width: 232px;
+
+    margin-top: -200px;
+    float: left;
+
+}
+.stay{
+
+
+    color: white;
+    width: 232px;
+    margin-left: 930px;
+    margin-top: -278px;
+    float: left;
+
+}
+.fb{
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -7rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.insta{
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -7rem;
+    margin-left: 0.1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.twitter{
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -7rem;
+    margin-left: 0.1rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+
+}
+.line-5{
+    position: absolute;
+    width: 53.7rem;
+    height: 0.06rem;
+    top: 87rem;
+    left: 16.2rem;
+    background-color: white;
+}
+.foot-last{
+    height: 2rem;
+    width: 56rem;
+    margin-left: 16.15rem;
+    margin-top: 3.5rem;
+    color: white;
+    font-size: 0.7rem;
+}
+.text-recall{
+    word-spacing: 0.01em;
+}
+.text-recall:hover{
+    cursor: pointer;
+}
+
+
+
+
